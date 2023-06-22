@@ -1,0 +1,130 @@
+body {
+    background-color:rgb(22 32 56 / 1);
+}
+
+.container {
+    width: 700px;
+    height: 600px;
+    margin: 250px auto;
+    background-color: rgb(18 25 48 / 1);
+    position: relative;
+}
+
+.container > p:first-child {
+    position: absolute;
+    left: 120px;
+    top: 30px;
+    color: rgb(42 118 115 / 1);
+    border: 2px solid rgb(42 118 115 / 1);
+    border-radius: 50px;
+    width: 261px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container .main-p {
+    color: rgb(144 152 175 / 1);
+    position: absolute;
+    top: 85px;
+    left: 120px;
+    font-size: 18px;
+}
+
+.container span {
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    color: white;
+    background-color: rgb(22 32 56 / 1);
+    right: -95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -5px;
+}
+
+.info {
+    width: 448px;
+    height: 250px;
+    background-color: rgb(22 32 56 / 1);
+    position: absolute;
+    top: 160px;
+    left: 117px;
+}
+
+.info .first-p {
+    top: 20px;
+    position: absolute;
+    left: 30px;  
+}
+
+.info .second-p {
+    top: 70px;
+    position: absolute;
+    left: 56px; 
+}
+
+.info .third-p {
+    top: 110px;
+    position: absolute;
+    left: 56px;
+}
+
+.info .last-p {
+    position: absolute;
+    bottom: 50px;
+    left: 56px;
+}
+
+.info img.phone {
+    max-width: 6%;
+    top: 120px;
+    position: relative;
+    left: -8px;
+}
+
+.info img.email {
+    max-width: 6%;
+    top: 165px;
+    position: relative;
+    left: -38px;
+}
+
+.info img {
+    max-width: 6%;
+    top: 83px;
+    position: relative;
+    left: 22px;
+}
+
+.info p {
+    color: rgb(144 152 175 / 1);
+}
+
+.info p:last-child {
+    position: absolute;
+    bottom: -185px;
+    padding: 30px;
+    line-height: 1.7;
+}
+
+.mushrooms {
+    position: absolute;
+    background-color: rgb(22 32 56 / 1);
+    bottom: -64px;
+    width: 447px;
+    height: 51px; 
+}
+
+.mushrooms p {
+    left: 30px;
+    top: -37px;
+}
+
+.mushrooms img {
+    position: absolute;
+    top: 10px;
+}
